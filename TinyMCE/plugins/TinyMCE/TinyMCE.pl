@@ -21,7 +21,7 @@ my $plugin = new MT::Plugin::TinyMCE({
         ['editor_style_css', { Default => '<$mt:var name="static_uri"$>plugins/tinymce/css/editor_style.css' }],
         ['theme_advanced_buttons1', { Default => 'bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,formatselect,fontsizeselect' }],
         ['theme_advanced_buttons2', { Default => 'cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo' }],
-        ['theme_advanced_buttons3', { Default => 'link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,|,forecolor,backcolor,|,charmap,emotions,iespell,media,advhr' }],
+        ['theme_advanced_buttons3', { Default => 'link,unlink,anchor,mt-image,mt-file,cleanup,help,code,|,insertdate,inserttime,|,forecolor,backcolor,|,charmap,emotions,iespell,media,advhr' }],
         ['theme_advanced_buttons4', { Default => 'tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,print,|,ltr,rtl,|,fullscreen' }],
 #        ['theme_advanced_buttons5', { Default => 'insertlayer,moveforward,movebackward,absolute,|,styleprops,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,pagebreak,|,mt-image,mt-file' }],
     ]),

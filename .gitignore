@@ -1,0 +1,8 @@
+#*
+*.zip
+Makefile
+Makefile.old
+MANIFEST
+MANIFEST.bak
+*.bak
+*#
