@@ -1,0 +1,43 @@
+id: TinyMCE
+name: TinyMCE
+key: TinyMCE
+author_name: Ryan Nagle
+author_link: 'http://www.chicagotribune.com/'
+description: 'Registers TinyMCE as an available rich text editor.'
+version: 1.0
+schema_version: 1
+static_version: 1
+
+options:
+  use_tinymce:
+    label: 'Use TinyMCE?'
+    type: checkbox
+    scope: blog
+    order: 1
+  theme_advanced_buttons1:
+    type: text
+    label: 'Available tools: row one'
+    order: 2
+    default: 'bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,formatselect,fontsizeselect'
+    tag: TinyButtons1
+  theme_advanced_buttons2:
+    type: text
+    label: 'Available tools: row two'
+    order: 3
+    default: 'cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo'
+    tag: TinyButtons2
+  theme_advanced_buttons3:
+    type: text
+    label: 'Available tools: row three'
+    order: 4
+    default: 'link,unlink,anchor,mt-image,mt-file,cleanup,help,code,|,insertdate,inserttime,|,forecolor,backcolor,|,charmap,emotions,iespell,media,advhr'
+    tag: TinyButtons3
+  theme_advanced_buttons4:
+    type: text
+    label: 'Available tools: row four'
+    order: 5
+    default: 'tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,print,|,ltr,rtl,|,fullscreen'
+    tag: TinyButtons4
+
+callbacks:
+    MT::App::CMS::template_source.edit_entry: $TinyMCE::TinyMCE::Plugin::set_editor_prefs
