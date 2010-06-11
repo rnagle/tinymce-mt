@@ -13,7 +13,7 @@ sub set_editor_prefs {
     my $scope  = "blog:" . $blog->id;
     my $use_tinymce = $plugin->get_config_value('use_tinymce',$scope);
 
-    # If Use TinyMCE is enabled for this blog, enable it on entry creation page    
+    # If Use TinyMCE is enabled for this blog, enable it on entry creation page
     unless ( !defined $use_tinymce ) {
         MT->log({
             message => "Use TinyMCE?: " . $use_tinymce,

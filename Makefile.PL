@@ -2,6 +2,6 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME            => 'TinyMCE',
-    VERSION         => '0.1',
+    VERSION         => '1.2',
     DISTNAME        => 'TinyMCE',
 );
