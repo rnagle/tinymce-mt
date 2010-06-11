@@ -6,8 +6,8 @@ author_link: 'http://www.alfasado.net/'
 plugin_link: 'http://www.github.com/rnagle'
 description: 'Registers TinyMCE as an available rich text editor.'
 version: 1.2
-schema_version: 1
-static_version: 1
+#schema_version: 1
+#static_version: 1
 
 options:
   use_tinymce:
