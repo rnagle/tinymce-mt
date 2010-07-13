@@ -1,7 +1,7 @@
 # TinyMCE -- Rich Text Editor for MovableType
 - [Original plugin](http://plugins.movabletype.org/tinymce/) by Alfasado, Inc.
 - Modifications by Ryan Nagle
-- Last updated: June 11, 2010
+- Last updated: July 13, 2010
 
 ## Requires:
 
