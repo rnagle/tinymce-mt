@@ -27,11 +27,6 @@ sub set_editor_prefs {
         $editor_elem->innerHTML($innerHTML);
         $tmpl->insertBefore($editor_elem, $basename_field);
 
-        MT->log({
-            message => "$param->{rich_editor}, $tmpl_file",
-            class => 'blog',
-            level => MT::Log::DEBUG(), 
-        });
     }
 }
 
