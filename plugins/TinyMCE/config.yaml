@@ -5,32 +5,32 @@ author_name: 'Alfasado Inc., Ryan Nagle'
 author_link: 'http://www.alfasado.net/'
 plugin_link: 'http://www.github.com/rnagle'
 description: 'Registers TinyMCE as an available rich text editor.'
-version: 1.3
+version: 1.4
 
 options:
   use_tinymce:
     label: 'Use TinyMCE?'
     type: checkbox
     scope: blog
-    default: 0
+    default: 1
     order: 1
   theme_advanced_buttons_1:
     type: text
     label: 'Available tools: row one'
     order: 2
-    default: 'bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,formatselect,fontsizeselect'
+    default: 'pasteword,|,bold,italic,underline,strikethrough,|,formatselect,fontsizeselect,justifyleft,justifycenter,justifyright,justifyfull'
     tag: TinyButtons1
   theme_advanced_buttons_2:
     type: text
     label: 'Available tools: row two'
     order: 3
-    default: 'pastetext,pasteword,|,bullist,numlist,|,blockquote,|,undo,redo,|,link,unlink,anchor,mt-image,mt-file,help,code,|,forecolor,backcolor,|,charmap,advhr'
+    default: 'bullist,numlist,|,blockquote,|,undo,redo,|,link,unlink,mt-image,mt-file,code,|,forecolor,backcolor,|,charmap,advhr,|,fullscreen'
     tag: TinyButtons2
   theme_advanced_buttons_3:
     type: text
     label: 'Available tools: row three'
     order: 4
-    default: 'tablecontrols,|,hr,removeformat,|,sub,sup,|,print,|,ltr,rtl,|,fullscreen'
+    default: ''
     tag: TinyButtons3
   theme_advanced_buttons_4:
     type: text
