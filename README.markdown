@@ -18,7 +18,7 @@
 
 ## Usage Notes:
 
-This plugin allows bloggers the option of using TinyMCE as their Rich Text Editor.
+This plugin allows bloggers the option of using TinyMCE as their Rich Text Editor. Change by navigating to Preferences > Rich Text Editor.
 
 It's possible that this plugin can be extended to offer other RTE options. If you're interested in doing that, you can start by checking my comments in Plugin.pm.
 
