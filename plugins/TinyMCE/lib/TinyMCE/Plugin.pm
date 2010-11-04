@@ -15,6 +15,8 @@ sub set_editor_prefs {
     my $plugin = plugin();
     my $scope  = "blog:" . $blog->id;
     
+    # TODO: It would be nice to enhance this portion of the plugin
+    # to allow multiple rich text editor options.
     my $use_tinymce = ( !defined($plugin->get_config_value('tinymce_on',$scope)) ? 'off' : 'on' );
     
    switch ($use_tinymce) {
@@ -70,6 +72,9 @@ sub manage_editor {
     my $use_tinymce = $plugin->get_config_value('tinymce_on',$scope);
     
     my @data;
+    # NOTE: The following is probably not necessary with only one 
+    # RTE option, but means we can potentially extend this plugin 
+    # to work with other editors in the future.
     foreach my $pval (keys %$prefs) {
         my $pref = $prefs->{$pval};
         push @data, {

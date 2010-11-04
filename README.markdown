@@ -16,6 +16,12 @@
 
     If you need/want a more in-depth run-down, visit Byrne Reese's guide to installing MT plugins: [http://bit.ly/c1YGMw](http://bit.ly/c1YGMw)
 
+## Usage Notes:
+
+This plugin allows bloggers the option of using TinyMCE as their Rich Text Editor.
+
+It's possible that this plugin can be extended to offer other RTE options. If you're interested in doing that, you can start by checking my comments in Plugin.pm.
+
 ## License
 
 This plugin is licensed under the GPLv3.
